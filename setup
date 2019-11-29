@@ -7,7 +7,7 @@ set -e
 ## info@javanile.org
 ## MIT License
 ##
-GDRIVE_BIN=/usr/local/bin/grive
+GDRIVE_BIN=/usr/local/bin/gdrive
 GDRIVE_SRC=https://github.com/gdrive-org/gdrive/releases/download/2.1.0/gdrive-linux-x64
 
 echo "Get: ${GDRIVE_SRC} -> ${GDRIVE_BIN}"
