@@ -1,0 +1,19 @@
+#!/bin/bash
+set -e
+##
+## GDrive
+## ------
+## by Francesco Bianco
+## info@javanile.org
+## MIT License
+##
+GDRIVE_BIN=/usr/local/bin/grive
+GDRIVE_SRC=https://github.com/gdrive-org/gdrive/releases/download/2.1.0/gdrive-linux-x64
+
+echo "Get: ${GDRIVE_SRC} -> ${GDRIVE_BIN}"
+curl --progress-bar -sLo ${GDRIVE_BIN} ${GDRIVE_SRC}
+
+echo "Inf: apply executable permission to ${GDRIVE_BIN}"
+chmod +x ${GDRIVE_BIN}
+
+echo "Done."
