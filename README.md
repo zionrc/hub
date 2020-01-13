@@ -1,5 +1,9 @@
-# gdrive
+# Zion(rc) software hub
+
+**🐇 read this https://dev.to/francescobianco/matrix-public-task-runner-1ek2**
+
+## Get started
 
 ```bash
-$ sudo curl -s https://javanile.github.io/gdrive/setup | bash -
+$ neo install docker
 ```
