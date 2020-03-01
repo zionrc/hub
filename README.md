@@ -1,13 +1,13 @@
 # Zion(rc) software hub
 
-**🐇 [follow the white rabbit](https://dev.to/francescobianco/matrix-public-task-runner-1ek2)**
+> **🐇 [`follow the white rabbit`](https://dev.to/francescobianco/matrix-public-task-runner-1ek2)**
 
-## Get started
+## Get Started
 
 ```bash
-$ neo install docker
+$ neo install 
 ```
 
-## Stable applications
+## Stable Applications
 
 - [docker-compose](stable/docker-compose)
