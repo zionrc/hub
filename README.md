@@ -2,7 +2,9 @@
 
 🐇 **[`Follow the white rabbit.`](https://dev.to/francescobianco/matrix-public-task-runner-1ek2)**
 
-This is the official applications hub behind Zionrc project.
+[![Build Status](https://travis-ci.org/zionrc/hub.svg?branch=master)](https://travis-ci.org/zionrc/hub)
+
+This is the official applications hub behind [Zionrc](https://zionrc.github.io) project.
 
 ## Installation
 
@@ -10,10 +12,10 @@ This is the official applications hub behind Zionrc project.
 $ curl -sL git.io/zion | bash 
 ```
 
-## Get Started
+## Usage
 
 ```bash
-$ neo install APP
+$ neo install APP...
 ```
 
 ## Stable Applications
