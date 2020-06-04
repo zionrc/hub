@@ -15,7 +15,7 @@ $ curl -sL https://git.io/get-bpkg | bash -
 ## Url shortening
 
 ```bash
-curl -i https://git.io \
-     -F "url=https://raw.githubusercontent.com/zionrc/hub/master/stable/bpkg/install.sh" \
-     -F "code=get-bpkg"
+curl -i "https://git.io" \
+     -d "url=https://raw.githubusercontent.com/zionrc/hub/master/stable/gitlab-ci-helper/install.sh" \
+     -d "code=get-gitlab-ci-helper"
 ```
