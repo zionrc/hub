@@ -1,21 +1,21 @@
-# bpkg
+# GitLab CI Helper
 
-Bpkg is the BASH package manager
+
 
 ## Installation
 
 ```bash
-$ neo install bpkg
+$ neo install gitlab-ci-helper
 ```
 
 ```bash
-$ curl -sL https://git.io/get-bpkg | bash -
+$ curl -sL https://git.io/get-gitlab-ci-helper | bash -
 ```
 
 ## Url shortening
 
 ```bash
-curl -i https://git.io \
-     -F "url=https://raw.githubusercontent.com/zionrc/hub/master/stable/bpkg/install.sh" \
-     -F "code=get-bpkg"
+curl -i "https://git.io" \
+     -d "url=https://raw.githubusercontent.com/zionrc/hub/master/stable/gitlab-ci-helper/install.sh" \
+     -d "code=get-gitlab-ci-helper"
 ```
